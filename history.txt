@@ -50,4 +50,9 @@
   518  git branch -v
   519  git branch -va
   520  git log --oneline --all
-  521  git log --oneline --all -n4 --graph 
+  521  git log --oneline --all -n4 --graph
+
+
+
+
+  git 
