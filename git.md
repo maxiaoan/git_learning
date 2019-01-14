@@ -41,4 +41,16 @@ dir: .git
 比较暂存区和HEAD 的差异
 
 # 工作区和暂存区的比较
+### 比较所有
+- git diff
+### 比较一个或者多个文件变更
+- git diff --readme
 
+### 不保暂存区去的所有文件
+- git reset HEAD
+### 让工作区的文件恢复为暂存区，和暂存区一
+- git checkout -- <file name > # 丢弃工作区内容，恢复到暂存区
+- git reset HEAD  #变更为暂存区的内容
+#### 恢复部分暂存区文件到工作区
+- git reset HEAD -- <file name>
+#### git reset --hard <commit>
