@@ -26,6 +26,7 @@ dir: .git
 # 清除分支
 - git branch -d 分支名
 - git branch -D 分支名
+<<<<<<< HEAD
 
 # 修改最近一次commit的message
 - git commit --amend -1
@@ -33,3 +34,5 @@ dir: .git
 # 历史记录
 - git rebase -i 
 - [git rebase 用法](https://www.jianshu.com/p/4a8f4af4e803)
+=======
+>>>>>>> 39cbc095e4349cab12c2929e619d95064ac6dc89
