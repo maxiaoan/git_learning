@@ -36,3 +36,9 @@ dir: .git
 - [git rebase 用法](https://www.jianshu.com/p/4a8f4af4e803)
 =======
 >>>>>>> 39cbc095e4349cab12c2929e619d95064ac6dc89
+
+# git diff --cached
+比较暂存区和HEAD 的差异
+
+# 工作区和暂存区的比较
+
